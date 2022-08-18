@@ -15,6 +15,7 @@ class Continent extends Model
     //relacion 1:m con regiones
     public function regiones(){
         //hasmany: Parametros
+        //hoa como estas
         //1 Modelo a relacionar
         return $this->hasMany( Region:: class , 
                             'continent_id' );
